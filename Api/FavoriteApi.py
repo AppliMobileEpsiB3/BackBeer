@@ -1,6 +1,6 @@
 from flask import Blueprint,request,jsonify
-import DatabaseFiles.connection as connection
-from VerifToken import verifyToken
+import Database.connection as connection
+from Api.VerifToken import verifyToken
 
 
 favorite_api = Blueprint('favorite_api',__name__)

@@ -1,6 +1,6 @@
 from flask import Blueprint,request,jsonify
-import DatabaseFiles.connection as connection
-from VerifToken import verifyToken
+import Database.connection as connection
+from Api.VerifToken import verifyToken
 
 beer_api = Blueprint('beer_api',__name__)
 

@@ -1,6 +1,6 @@
 from flask import Blueprint,request,jsonify
-import DatabaseFiles.connection as connection
-from VerifToken import verifyToken
+import Database.connection as connection
+from Api.VerifToken import verifyToken
 
 
 search_api = Blueprint('search_api',__name__)

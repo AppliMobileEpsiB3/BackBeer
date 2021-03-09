@@ -1,7 +1,7 @@
 from flask import Flask
-from ApiFiles.BeerApi import beer_api
-from ApiFiles.SearchApi import search_api
-from ApiFiles.FavoriteApi import favorite_api
+from Api.BeerApi import beer_api
+from Api.SearchApi import search_api
+from Api.FavoriteApi import favorite_api
 
 app=Flask(__name__)
 
